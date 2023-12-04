@@ -1,0 +1,37 @@
+body{
+    background-image: url(../assets/images/fondo.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contenedor{
+    min-width: 350px;
+    max-width: 1300px;
+    margin: auto 5rem;
+    width: 100%;
+    color: grey;
+   
+}
+.img__target{
+    height:300px;
+    object-fit: cover;
+}
+.width__targets{
+    width: 50%
+}
+.main_border{
+    border:1px solid #bb9f00b6;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.dorado{
+    color: #bb9f00;
+}
+.img__carrusel{
+    height:500px;
+    object-fit: cover;
+}
