@@ -35,3 +35,16 @@ body{
     height:500px;
     object-fit: cover;
 }
+.main__contenedor{
+    
+    display: flex;
+}
+.mapa{
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.fondo__dorado{
+    background-color: #bb9f00c0 !important;
+}

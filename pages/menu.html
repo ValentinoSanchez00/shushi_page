@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Menú de Sushi Delight</title>
+    <title>Página de Sushi</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -30,93 +30,88 @@
                         </li>
         
                         <li class="nav-item">
-                            <a class="nav-link" href="#reservas" data-bs-toggle="modal" data-bs-target="#reservaModal">Reservas</a>
+                            <a class="nav-link" href="./reservas.html">Reservas</a>
                         </li>
         
                         <li class="nav-item">
-                            <a class="nav-link" href="#contacto" data-bs-toggle="modal" data-bs-target="#contactoModal">Contacto</a>
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
         
                         <li class="nav-item">
-                            <a class="nav-link" href="#nuevo-apartado">Especiales</a>
+                            <a class="nav-link" href="./especiales.html">Especiales</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
+        
         <main class="container mt-5 main_border">
-
-            <h2 class="titulo-carrusel dorado mb-4">Platillos Destacados</h2>
-
-            <div id="platillosCarrusel" class="carousel slide mb-5" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/images/arrozyangzhou.jpg" class="d-block w-100 img__carrusel" alt="Platillo 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/images/dimsum.jpg" class="d-block w-100 img__carrusel" alt="Platillo 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/images/shushiwanyu.jpg" class="d-block w-100 img__carrusel" alt="Platillo 3">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#platillosCarrusel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#platillosCarrusel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-            </div>
-
-            <div class="mb-4">
-                <label for="tipoPlatillos" class="form-label">Selecciona el Tipo de Platillos:</label>
-                <select class="form-select" id="tipoPlatillos">
-                    <option value="todos">Todos</option>
-                    <option value="sushi">Sushi</option>
-                    <option value="rolls">Rolls</option>
-                    <option value="platillos_chinos">Platillos Chinos</option>
-                </select>
-            </div>
-
-      
-
+            <section class="mb-5">
+                <h2 class="text-center mb-4 dorado">¡Bienvenido a Sushi Delight!</h2>
+                <p class="text-center">Descubre la auténtica experiencia de la cocina asiática con nuestro menú exclusivo de sushi y platos chinos. En Sushi Delight, nos esforzamos por ofrecer ingredientes frescos y sabores excepcionales para satisfacer tu paladar.</p>
+            </section>
+    
+          
             <div class="row">
-                <div class="col-lg-4 mb-4 width__targets width__targets">
+                <div class="col-lg-4 mb-4 width__targets">
                     <div class="card">
-                        <img src="../assets/images/shushiwanyu.jpg" class="card-img-top img__target" alt="Sushi de Wanyu">
+                        <img  src="../assets/images/shushi1.jpg" class="card-img-top img__target" alt="Sushi 1">
                         <div class="card-body">
-                            <h5 class="card-title">Sushi de Wanyu</h5>
-                            <p class="card-text">Exquisito sushi preparado con carne de wanyu, arroz especial y
-                                aderezos únicos.</p>
-                            <a href="#" class="btn btn-primary">Detalles</a>
+                            <h5 class="card-title">Sushi Rolls Especiales</h5>
+                            <p class="card-text">Descubre nuestra selección de rolls especiales, preparados con los ingredientes más frescos.</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 mb-4 width__targets width__targets">
+                <div class="col-lg-4 mb-4 width__targets">
                     <div class="card">
-                        <img src="../assets/images/dumpings.jpg" class="card-img-top img__target" alt="Dumplings">
+                        <img  src="../assets/images/dumpings.jpg" class="card-img-top img__target" alt="Dumplings">
                         <div class="card-body">
                             <h5 class="card-title">Dumplings al Vapor</h5>
-                            <p class="card-text">Deliciosos dumplings rellenos de carne y vegetales, cocidos al
-                                vapor </p>
-                            <a href="#" class="btn btn-primary">Detalles</a>
+                            <p class="card-text">Deliciosos dumplings rellenos de carne y vegetales, cocidos al vapor y servidos con una salsa especial.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 mb-4 width__targets">
+                    <div class="card">
+                        <img  src="../assets/images/mapotofu.avif" class="card-img-top img__target" alt="Mapo Tofu">
+                        <div class="card-body">
+                            <h5 class="card-title">Mapo Tofu</h5>
+                            <p class="card-text">Un clásico de la cocina china con tofu firme en una salsa picante de chile y judías fermentadas, servido con arroz blanco.</p>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                <div class="col-lg-4 mb-4 width__targets">
+                    <div class="card">
+                        <img  src="../assets/images/pato.jpg" class="card-img-top img__target" alt="Pato Pekín">
+                        <div class="card-body">
+                            <h5 class="card-title">Pato Pekín</h5>
+                            <p class="card-text">Pato asado a la perfección, servido con finas crepes, salsa hoisin, cebollines y pepino.</p>
                         </div>
                     </div>
                 </div>
 
-           
+                
+    
             </div>
+            <section class="mb-5">
+                <h2 class="text-center mb-4 dorado">Conócenos</h2>
+                <p>En Sushi Delight, nos enorgullece ofrecer una experiencia culinaria única. Nuestro equipo de chefs expertos selecciona cuidadosamente los ingredientes más frescos para crear auténticos platos asiáticos que deleitarán tu paladar.</p>
+                <p>Ubicados en el corazón de la ciudad, nuestro acogedor restaurante te invita a disfrutar de una atmósfera relajada y amigable. Ya sea que estés celebrando una ocasión especial o simplemente disfrutando de una comida con amigos, estamos aquí para hacer que cada visita sea inolvidable.</p>
+            </section>
 
+    
+            
+    
         </main>
+   
     </div>
+   
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
